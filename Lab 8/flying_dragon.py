@@ -1,6 +1,6 @@
+import random
 from dragon import Dragon
 from entity import Entity
-import random
 
 
 class FlyingDragon(Dragon):

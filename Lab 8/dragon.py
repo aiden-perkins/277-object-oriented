@@ -6,7 +6,7 @@ class Dragon(Entity):
     """A class that represents a dragon which inherits from entity."""
 
     def basic_attack(self, other: Entity) -> str:
-        """The basic attack for the dragon.
+        """The  for thebasic attack dragon.
 
         Args:
             other (Entity): The entity that will take damage from this attack.

@@ -3,8 +3,8 @@ from entity import Entity
 
 
 class Hero(Entity):
-    """A class that represents the hero that inherits everything from Entity and creates its own special/basic attacks.
-    """
+    """A class that represents the hero that inherits everything from Entity and creates its own special/.
+   basic attacks """
 
     def basic_attack(self, other: Entity) -> str:
         """Attacks the given entity with (1-6) + (1-6) damage.
